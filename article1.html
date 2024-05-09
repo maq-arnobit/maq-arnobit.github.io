@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>How to make a Temperature Converter in Java</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="navdiv">
+			<div class="leftside">
+				<ul class="navlist">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Tutorials</button>
+							<div class="dropdown-content">
+								<a href="article1.html">Temperature Conversion</a>
+								<a href="article2.html">Factorial</a>
+								<a href="article3.html">Guessing Game</a>
+								<a href="article4.html">String Methods</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="rightside">
+				<p>easyJava</p>
+			</div>
+		</div>
+		<div class="pagecontent">
+		<br><br><br><br><br>
+			<h1 class="articletitle">How to: Make a Temperature Converter in Java</h1>
+			<p class="article">Create a new Java file.</p>
+			<img class="articleimg" src="pics/article1_pic1.png">
+			<p class="article">In the main method, create a Scanner object. This is needed to get the user input.</p>
+			<img class="articleimg" src="pics/article1_pic2.png">
+			<p class="article">Next, create two variables with the double data type, one for Celsius and one for Fahrenheit. Also, create an integer variable with a value of zero. The program will keep asking for input until the user chooses to exit the program, and if this integer variable is equal to a certain value, the program will stop.</p>
+			<img class="articleimg" src="pics/article1_pic3.png">
+			<p class="article">Create a do-while loop. A do-while loop functions like a while loop, except it runs at least once, even if the condition is false. Add prompts that indicate the available options for the user: 1 - Convert from Fahrenheit to Celsius, 2 - Convert from Celsius to Fahrenheit, and 3 - stop the loop and terminate the program.</p>
+			<img class="articleimg" src="pics/article1_pic4.png">
+			<p class="article">Warning: If you run the program at this point, it will be an infinite loop since the "option" variable is not updated yet, meaning the program will loop forever.</p>
+			<br>
+			<p class="article">After the prompts, set the value of option to the value that the user will input.</p>
+			<img class="articleimg" src="pics/article1_pic5.png">
+			<p class="article">Create a switch structure which will execute different statements depending on the value of the option variable. For this tutorial, we will use the enhanced switch statement introduced in Java 13, which makes use of arrows.</p>
+			<img class="articleimg" src="pics/article1_pic6.png">
+			<p class="article">For case 1, prompt the user to input the temp in Fahrenheit, store it in the appropriate variable, then compute for Celsius using the value of Fahrenheit and store it in the other variable. Afterwards, print it for the user to see.</p>
+			<img class="articleimg" src="pics/article1_pic7.png">
+			<p class="article">For case 2, do the same thing but in reverse. The calculation is different as well.</p>
+			<img class="articleimg" src="pics/article1_pic8.png">
+			
+			<p class="article">For case 3, simply output a message that the program will exit.</p>
+			<img class="articleimg" src="pics/article1_pic9.png">
+			<p class="article">The program is ready to go. As you can see, it will keep asking the user for input until the user inputs 3, which stops the program.</p>
+			<img class="articleimg" src="pics/article1_pic10.png">
+			<br>
+			<button onclick="scrollToTop()" class="backtotop">Scroll to top</button>
+			<footer>
+				<p align="center">© 2024 Maquier Hans T. Arnobit | All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>

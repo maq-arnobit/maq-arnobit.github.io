@@ -1,0 +1,148 @@
+body {
+	background-color: #696969;
+	font-family: Georgia;
+	margin: 0;
+	color: white;
+}
+
+.navdiv {
+	background-color: #dbd7d2;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+.leftside {
+	float: left;
+}
+
+.rightside {
+	float: right;
+	margin-right: 20px;;
+	font-family: Luminari, fantasy;
+	color: black;
+}
+
+.navlist {
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+}
+
+.navlist li {
+	display: inline;
+}
+
+.navlist li a {
+	text-decoration: none;
+	color: black;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 22px;
+}
+
+.navlist li a:hover {
+	background-color: #696969;
+	color: white;
+}
+
+.btnDiv {
+	text-align: center;
+}
+
+.randomPageBtn {
+	font-family: inherit;
+}
+
+.backtotop {
+	font-family: inherit;
+	margin-bottom: 10px;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: #dbd7d2;
+	color: black;
+	position: absolute;
+	width: 100%;
+	font-size: 14px;
+	border-top-style: solid;
+	border-top-color: black;
+}
+
+.articletitle {
+	text-align: center;
+}
+
+.article {
+	font-size: 18px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: justify;
+}
+
+.articleimg {
+	margin-left: 120px;
+}
+
+.about {
+	text-align: center;
+}
+
+.dropdown .dropbtn {
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 22px;
+	font-family: inherit;
+	background-color: inherit;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.dropbtn:hover {
+	background-color: #696969;
+	color: white;
+}
+
+.dropdown-content {
+	border: black;
+	border-style: solid;
+	display: none;
+	position: absolute;
+	background-color: #dbd7d2;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.icon {
+	width: 50;
+	height: 50;
+}
+
+.contact {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.contact li {
+	margin-right: 30px;
+}

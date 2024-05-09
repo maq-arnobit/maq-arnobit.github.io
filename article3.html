@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>How to make a Guessing Game in Java</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="navdiv">
+			<div class="leftside">
+				<ul class="navlist">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Tutorials</button>
+							<div class="dropdown-content">
+								<a href="article1.html">Temperature Conversion</a>
+								<a href="article2.html">Factorial</a>
+								<a href="article3.html">Guessing Game</a>
+								<a href="article4.html">String Methods</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="rightside">
+				<p>easyJava</p>
+			</div>
+		</div>
+		<div class="pagecontent">
+		<br><br><br><br><br>
+			<h1 class="articletitle">How to: Make a Simple Guessing Game in Java</h1>
+			<p class="article">The rules for this game are as follows:</p>
+			<p class="article">1. The program will generate a number with two possible values, 1 and 0</p>
+			<p class="article">2. The user will input their guess</p>
+			<p class="article">3. If guessed correctly, the user's score increases, and the program will repeat step 1 and 2</p>
+			<p class="article">4. If guessed wrong, the user's score is shown at the end and the program stops.</p>
+			<br>
+			<p class="article">Create a new Java file.</p>
+			<img class="articleimg" src="pics/article3_pic1.png">
+			<p class="article">In the main method, create a Random object. This will be used to generate random numbers.</p>
+			<img class="articleimg" src="pics/article3_pic2.png">
+			<p class="article">Create a Scanner object. This is needed to get the user input.</p>
+			<img class="articleimg" src="pics/article3_pic3.png">
+			<p class="article">Next, create an integer variable that will hold the player's score, and a boolean variable that will be checked by the loop.</p>
+			<img class="articleimg" src="pics/article3_pic4.png">
+			<p class="article">Create a while loop with the condition "!done". This means that the while loop will continuously execute until the boolean variable done becomes true.</p>
+			<img class="articleimg" src="pics/article3_pic5.png">
+			<p class="article">In the loop, generate a random integer using random.nextInt(2). This returns a value between 0 and 1, as 2 is exclusive.</p>
+			<img class="articleimg" src="pics/article3_pic6.png">
+			<p class="article">Prompt the user to input their guess. Store the value in a new integer variable.</p>
+			<img class="articleimg" src="pics/article3_pic7.png">
+			<p class="article">To validate the user's guess, create an if structure. Check if the user's guess is equal to the generated number:</p>
+			<img class="articleimg" src="pics/article3_pic8.png">
+			<p class="article">Add an else structure to execute some code if the player's guess is wrong. Notify the user and set the boolean variable done to true, to stop the loop from executing.</p>
+			<img class="articleimg" src="pics/article3_pic9.png">
+			<p class="article">Finally, at the end of the loop, print out the player's score. This will show regardless if the user is correct or not.</p>
+			<img class="articleimg" src="pics/article3_pic10.png">
+			<p class="article">The guessing game is ready. Output:</p>
+			<img class="articleimg" src="pics/article3_pic11.png">
+			<p class="article">The program ends after an incorrect guess.</p>
+			<br>
+			<button onclick="scrollToTop()" class="backtotop">Scroll to top</button>
+			<footer>
+				<p align="center">© 2024 Maquier Hans T. Arnobit | All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>
